@@ -1,0 +1,13 @@
+{{ define "main" }}
+
+<main class="row single pt-3 {{ .Type }}">
+  <div class="col">
+    <h1>{{ .Title }}</h1>  
+    <small>{{ .Date.Format "Monday, Jan 2, 2006" }}</small>
+    <div id="content" class="pt-3">
+      {{ .Content }}
+    </div>
+  </div>
+</main>
+
+{{ end }}

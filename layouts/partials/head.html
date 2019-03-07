@@ -1,0 +1,20 @@
+<head>
+  {{ if .Page.IsHome }}
+  <title>{{ .Site.Title }}</title>
+  {{ else }}
+  <title>{{ .Title }} | {{ .Site.Title }}</title>
+  {{ end }}
+  <link rel="stylesheet" href='{{ "css/bootstrap.min.css" | absURL }}'>
+  <link rel="stylesheet" href='{{ "css/mondrian.css" | absURL }}'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {{ .Hugo.Generator }}
+  {{ partial "colors.html" . }}
+  {{ partial "scripts.html" . }}
+  {{ partial "styles.html" . }}
+  {{ range .Params.libs.js }}
+  <script src="{{ . }}"></script>
+  {{ end }}
+  {{ range .Params.libs.css }}
+  <link rel="stylesheet" href="{{ . }}">
+  {{ end }}
+</head>

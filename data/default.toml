@@ -1,0 +1,9 @@
+showHeader = true
+showTags = true
+debug = false
+
+[colors]
+  post = "orangered"
+  posts = "gold"
+  page = "blue"
+  sketch = "limegreen"

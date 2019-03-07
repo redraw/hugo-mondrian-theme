@@ -1,0 +1,12 @@
+{{ $colors := .Site.Params.colors | default .Site.Data.default.colors }}
+
+<style>
+{{ range $type, $color := $colors }}
+  #grid .list-item.{{ $type }}:hover {
+    background: {{ $color }};
+  }
+  main.single.{{ $type }} h1 {
+    border-color: {{ $color }};
+  }
+{{ end }}
+</style>

@@ -1,0 +1,21 @@
+{{ define "main" }}
+
+<main id="grid" class="row list h-100 text-center">
+  {{ range .Pages }}
+    <div class="col list-item d-flex lead justify-content-center align-items-center {{ .Type }}">
+      <div>
+        <a class="text-decoration-none" href="{{ .URL }}">
+          <h4 class="font-weight-bold">{{ .Title }}</h4>
+          <p>{{ .Params.description }}</p>
+        </a>
+        {{ if .Site.Params.showTags | default .Site.Data.default.showTags }}
+          {{ range .Params.tags }}
+            <a class="text-body text-decoration-none border-bottom border-dark" href="/tags/{{ . }}">{{ . }}</a>
+          {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  {{ end }}
+</main>
+
+{{ end }}

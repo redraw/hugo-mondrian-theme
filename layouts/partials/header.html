@@ -1,0 +1,14 @@
+{{ if .Site.Params.showHeader | default .Site.Data.default.showHeader }}
+<header class="row flex-shrink-0 justify-content-center justify-content-md-start">
+  <ul class="nav px-2">
+    <li class="p-2">
+      <a class="text-muted text-decoration-none" href="/">{{ .Site.Title }}</a>
+    </li>
+    {{ range .Site.Menus.nav }}
+      <li class="p-2">
+        <a class="text-light" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+      </li>
+    {{ end }}
+  </nav>
+</header>
+{{ end }}

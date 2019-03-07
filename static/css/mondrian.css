@@ -1,0 +1,40 @@
+html, body {
+  height: 100%;
+}
+
+header {
+  z-index: 20;
+  background: black;
+}
+
+main.single h1 {
+  border-left: .1em solid;
+  padding-left: .2em;
+}
+
+main.single {
+  max-width: 60%
+}
+
+#grid .list-item {
+  padding: 2em;
+  min-width: 360px;
+  max-width: 100%;
+  border: 1px solid;
+  box-sizing: border-box;
+  transition: background-color .15s linear;
+}
+
+#grid .list-item a {
+  color: black;
+}
+
+.debug-box {
+  position: fixed; 
+  bottom: 0; 
+  left: 0; 
+  color: white; 
+  background: black; 
+  padding: .2em; 
+  font-size: .8em;
+}

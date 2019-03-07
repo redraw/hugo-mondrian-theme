@@ -1,0 +1,27 @@
+baseURL = "http://example.org/"
+languageCode = "en"
+title = "hugo-mondrian-theme"
+theme = "mondrian"
+
+[taxonomies]
+  tag = "tags"
+
+[params]
+  showHeader = true
+  showTags = true
+  debug = false
+  [params.colors]
+    post = "orangered"
+    posts = "gold"
+    page = "blue"
+    sketch = "limegreen"
+
+[menu]
+  [[menu.nav]]
+    name = "posts"
+    url = "/post"
+    weight = 1
+  [[menu.nav]]
+    name = "sketchs"
+    url = "/sketch"
+    weight = 2

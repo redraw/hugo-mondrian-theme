@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+{{- partial "head.html" . -}}
+<body>
+  <div class="container-fluid {{if .IsNode}}h-100{{end}} d-flex flex-column">
+    {{- partial "header.html" . -}}
+    {{- block "main" . }}{{- end }}
+    {{- partial "footer.html" . -}}
+  </div>
+  {{ if .Site.Params.debug | default .Site.Data.default.debug }}
+  <div class="debug-box">
+    <span class="text-muted">kind</span> {{ .Kind }} / 
+    <span class="text-muted">type</span> {{ .Type }}
+  </div>
+  {{ end }}
+</body>
+</html>
