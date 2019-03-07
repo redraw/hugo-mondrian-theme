@@ -7,13 +7,13 @@ Mondrian-like minimal theme for Hugo static site generator.
 
 # Using
 
-Copy the theme into your `themes/mondrian` folder or add it as a submodule,
+Copy the theme in `themes/mondrian` folder or add it as a git submodule,
 ```bash
 $ git add submodule https://github.com/redraw/hugo-mondrian-theme.git themes/mondrian
 $ hugo server -t mondrian
 ```
 
-Colors are configurable per [content-type](https://gohugo.io/content-management/types/) and you can modify them your `config.toml`, along with minor settings
+Colors are configurable per [content-type](https://gohugo.io/content-management/types/) and you can modify them in your `config.toml`, along with minor settings
 
 ```toml
 [params]
@@ -26,7 +26,7 @@ Colors are configurable per [content-type](https://gohugo.io/content-management/
     sketch = "limegreen"
 ```
 
-You can test the `exampleSite`
+If you want to test the `exampleSite`, run
 ```bash
 $ cd themes/mondrian/exampleSite
 $ hugo server --themesDir ../..
