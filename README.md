@@ -2,7 +2,7 @@
 
 Mondrian-like minimal theme for Hugo static site generator.
 
-![](images/screenshot.gif)
+![](https://raw.githubusercontent.com/redraw/hugo-mondrian-theme/master/images/screenshot.gif)
 
 
 # Using
