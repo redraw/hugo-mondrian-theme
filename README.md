@@ -33,4 +33,4 @@ $ hugo server --themesDir ../..
 ```
 
 ### Notes
-[Beerware](https://gitter.im/redraw/hugo-mondrian-theme) (?)
+[Beerware](https://gitter.im/hugo-mondrian-theme) (?)
