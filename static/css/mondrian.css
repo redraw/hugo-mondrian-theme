@@ -18,6 +18,7 @@ main.single {
 
 #grid .list-item {
   padding: 2em;
+  flex-basis: 30%;
   min-width: 360px;
   max-width: 100%;
   border: 1px solid;
@@ -30,11 +31,11 @@ main.single {
 }
 
 .debug-box {
-  position: fixed; 
-  bottom: 0; 
-  left: 0; 
-  color: white; 
-  background: black; 
-  padding: .2em; 
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  color: white;
+  background: black;
+  padding: .2em;
   font-size: .8em;
 }
