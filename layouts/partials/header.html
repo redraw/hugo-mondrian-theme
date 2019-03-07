@@ -4,7 +4,7 @@
     <li class="p-2">
       <a class="text-muted text-decoration-none" href="/">{{ .Site.Title }}</a>
     </li>
-    {{ range .Site.Menus.nav }}
+    {{ range .Site.Menus.main }}
       <li class="p-2">
         <a class="text-light" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
       </li>

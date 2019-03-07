@@ -17,11 +17,11 @@ theme = "mondrian"
     sketch = "limegreen"
 
 [menu]
-  [[menu.nav]]
+  [[menu.main]]
     name = "posts"
     url = "/post"
     weight = 1
-  [[menu.nav]]
+  [[menu.main]]
     name = "sketchs"
     url = "/sketch"
     weight = 2
