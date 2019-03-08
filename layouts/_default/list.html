@@ -1,8 +1,8 @@
 {{ define "main" }}
 
-<main id="grid" class="row list h-100 text-center">
+<main id="grid" class="row list flex-wrap h-100 text-center">
   {{ range .Pages }}
-    <div class="col list-item d-flex lead justify-content-center align-items-center {{ .Type }}">
+    <div class="list-item d-flex lead justify-content-center align-items-center {{ .Type }}">
       <div>
         <a class="text-decoration-none" href="{{ .Permalink }}">
           <h4 class="font-weight-bold">{{ .Title }}</h4>
