@@ -1,3 +1,16 @@
+# this setting is relevant for the theme demo on the Hugo Themes website
+ignoreFiles = [
+  "content/posts/\\.*",
+  "content/portfolio/\\.*",
+  "content/product/\\.*",
+  "content/en/\\.*",
+  "content/fr/\\.*",
+  "content/es/\\.*",
+  "content/de/\\.*",
+  "content/zh-tw/\\.*",
+  "content/zh-cn/\\.*"
+]
+
 baseURL = "http://example.org/"
 languageCode = "en"
 title = "hugo-mondrian-theme"
@@ -26,15 +39,3 @@ theme = "mondrian"
     url = "/sketch"
     weight = 2
 
-# this setting is relevant for the theme demo on the Hugo Themes website
-ignoreFiles = [
-  "content/posts/\\.*",
-  "content/portfolio/\\.*",
-  "content/product/\\.*",
-  "content/en/\\.*",
-  "content/fr/\\.*",
-  "content/es/\\.*",
-  "content/de/\\.*",
-  "content/zh-tw/\\.*",
-  "content/zh-cn/\\.*"
-]

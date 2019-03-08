@@ -17,20 +17,16 @@ main.single {
 }
 
 #grid .list-item {
-  padding: 2em;
+  padding: 3em;
   flex-grow: 1;
-  min-width: 30%;
   border: 1px solid;
   box-sizing: border-box;
   transition: background-color .15s linear;
 }
 
 #grid .list-item a {
-  max-width: 640px;
-}
-
-#grid .list-item a {
   color: black;
+  max-width: 640px;
 }
 
 .debug-box {
