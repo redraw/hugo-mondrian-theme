@@ -26,6 +26,10 @@ main.single {
 }
 
 #grid .list-item a {
+  max-width: 640px;
+}
+
+#grid .list-item a {
   color: black;
 }
 
