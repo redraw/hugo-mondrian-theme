@@ -22,6 +22,19 @@ theme = "mondrian"
     url = "/post"
     weight = 1
   [[menu.main]]
-    name = "sketchs"
+    name = "sketches"
     url = "/sketch"
     weight = 2
+
+# this setting is relevant for the theme demo on the Hugo Themes website
+ignoreFiles = [
+  "content/posts/\\.*",
+  "content/portfolio/\\.*",
+  "content/product/\\.*",
+  "content/en/\\.*",
+  "content/fr/\\.*",
+  "content/es/\\.*",
+  "content/de/\\.*",
+  "content/zh-tw/\\.*",
+  "content/zh-cn/\\.*"
+]
