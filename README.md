@@ -9,7 +9,7 @@ Mondrian-like minimal theme for Hugo static site generator.
 
 Copy the theme in `themes/mondrian` folder or add it as a git submodule,
 ```bash
-$ git add submodule https://github.com/redraw/hugo-mondrian-theme.git themes/mondrian
+$ git submodule add https://github.com/redraw/hugo-mondrian-theme.git themes/mondrian
 $ hugo server -t mondrian
 ```
 
