@@ -13,7 +13,7 @@ main.single h1 {
 }
 
 main.single {
-  max-width: 60%
+  max-width: 50em;
 }
 
 #grid .list-item {
